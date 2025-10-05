@@ -1,0 +1,17 @@
+{
+  "name": "simple-vercel-server",
+  "version": "1.0.0",
+  "description": "シンプルなVercelサーバー",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'",
+    "start": "echo 'Vercel will handle this'"
+  },
+  "keywords": ["vercel", "server", "api"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}
